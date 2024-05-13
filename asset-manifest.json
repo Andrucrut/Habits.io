@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Habits.io/static/css/main.5dd06c9d.css",
+    "main.js": "/Habits.io/static/js/main.1312a336.js",
+    "static/js/453.db9be7b5.chunk.js": "/Habits.io/static/js/453.db9be7b5.chunk.js",
+    "static/media/Calendar-amico.png": "/Habits.io/static/media/Calendar-amico.c289e95f09cb01e31a98.png",
+    "static/media/back.png": "/Habits.io/static/media/back.10ef8551176b416dec6d.png",
+    "static/media/mon.jpg": "/Habits.io/static/media/mon.f6a3d7b26eb994e9bf39.jpg",
+    "static/media/DROP.png": "/Habits.io/static/media/DROP.941f4d1b78f0c7e9afdf.png",
+    "index.html": "/Habits.io/index.html",
+    "main.5dd06c9d.css.map": "/Habits.io/static/css/main.5dd06c9d.css.map",
+    "main.1312a336.js.map": "/Habits.io/static/js/main.1312a336.js.map",
+    "453.db9be7b5.chunk.js.map": "/Habits.io/static/js/453.db9be7b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dd06c9d.css",
+    "static/js/main.1312a336.js"
+  ]
+}
