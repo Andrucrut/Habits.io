@@ -2,12 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    margin-top: 10%;
     padding: 0 2%;
 }
-
-
-
 
 .main-content {
     width: 50%;
@@ -15,7 +12,7 @@
 }
 
 .tel {
-    margin-bottom: 30px;
+    margin-bottom: 3%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -119,6 +116,7 @@
     font-size: 1.2rem;
     line-height: 1.5;
     margin-right: 1rem;
+    margin-top: 2%;
 }
 
 .checkmark {
