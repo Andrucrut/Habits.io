@@ -11,19 +11,19 @@ export const Navbar = () => {
         <div className="navbar">
             <div className="links">
                 <Link to="/" className={location.pathname === "/" ? "active" : ""}>
-                    <span>Description</span>
+                    <span>Main</span>
                 </Link>
                 <Link
                     to="/theory"
                     className={location.pathname === "/theory" ? "active" : ""}
                 >
-                    <span>Theory</span>
+                    <span>Services</span>
                 </Link>
                 <Link
                     to="/habits"
                     className={location.pathname === "/habits" ? "active" : ""}
                 >
-                    <span>Habits</span>
+                    <span>Workers</span>
                 </Link>
                 <Link
                     to="/contact"
