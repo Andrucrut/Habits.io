@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Habits.io/static/css/main.b2ceea61.css",
-    "main.js": "/Habits.io/static/js/main.6b8ada86.js",
+    "main.css": "/Habits.io/static/css/main.624a6d13.css",
+    "main.js": "/Habits.io/static/js/main.e75b27c5.js",
     "static/js/453.db9be7b5.chunk.js": "/Habits.io/static/js/453.db9be7b5.chunk.js",
     "static/media/work3.jpeg": "/Habits.io/static/media/work3.7da5ba39d69dbffe50bc.jpeg",
     "static/media/back.png": "/Habits.io/static/media/back.10ef8551176b416dec6d.png",
@@ -10,16 +10,16 @@
     "static/media/work7.jpeg": "/Habits.io/static/media/work7.ff97707c3df721d88f95.jpeg",
     "static/media/work4.jpeg": "/Habits.io/static/media/work4.0cb5c7f1cefbf5cbbf94.jpeg",
     "static/media/mon.jpg": "/Habits.io/static/media/mon.f6a3d7b26eb994e9bf39.jpg",
-    "static/media/photo_2024-05-13 19.05.10.jpeg": "/Habits.io/static/media/photo_2024-05-13 19.05.10.93ac5ef01d36d52ebe1f.jpeg",
+    "static/media/article626454.jpg": "/Habits.io/static/media/article626454.330b8c4c5b6623b977ce.jpg",
     "static/media/1work.jpeg": "/Habits.io/static/media/1work.f431d92d94ef36848438.jpeg",
     "static/media/worker2.jpeg": "/Habits.io/static/media/worker2.3b4b70c717d3a31f23bb.jpeg",
     "index.html": "/Habits.io/index.html",
-    "main.b2ceea61.css.map": "/Habits.io/static/css/main.b2ceea61.css.map",
-    "main.6b8ada86.js.map": "/Habits.io/static/js/main.6b8ada86.js.map",
+    "main.624a6d13.css.map": "/Habits.io/static/css/main.624a6d13.css.map",
+    "main.e75b27c5.js.map": "/Habits.io/static/js/main.e75b27c5.js.map",
     "453.db9be7b5.chunk.js.map": "/Habits.io/static/js/453.db9be7b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2ceea61.css",
-    "static/js/main.6b8ada86.js"
+    "static/css/main.624a6d13.css",
+    "static/js/main.e75b27c5.js"
   ]
 }
