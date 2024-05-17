@@ -5,8 +5,8 @@ import  Reg  from "./pages/registration/reg";
 import Log from "./pages/login/login";
 import Contact from "./pages/contact/contact";
 import Main from './pages/main/main';
-import Teoria from "./pages/teoria/teoria"
-import Worker from "./pages/workers/workers"
+import Teoria from "./pages/teoria/teoria";
+import Calendar from "./pages/Calendar/CalendarPage"
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Main/>}/>
                     <Route path="/theory" element={<Teoria/>} />
-                    <Route path="/habits" element={<Worker/>} />
+                    <Route path="/habits" element={<Calendar/>} />
                     <Route path="/contact" element={<Contact/>} />
                     <Route path="/reg" element={<Reg/>} />
                     <Route path="/login" element={<Log/>} />

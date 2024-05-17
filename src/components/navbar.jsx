@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineUser } from "react-icons/ai";
-
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -11,24 +10,15 @@ export const Navbar = () => {
         <div className="navbar">
             <div className="links">
                 <Link to="/" className={location.pathname === "/" ? "active" : ""}>
-                    <span>Main</span>
+                    <span>Description</span>
                 </Link>
-                <Link
-                    to="/theory"
-                    className={location.pathname === "/theory" ? "active" : ""}
-                >
-                    <span>Services</span>
+                <Link to="/theory" className={location.pathname === "/theory" ? "active" : ""}>
+                    <span>Theory</span>
                 </Link>
-                <Link
-                    to="/habits"
-                    className={location.pathname === "/habits" ? "active" : ""}
-                >
-                    <span>Workers</span>
+                <Link to="/habits" className={location.pathname === "/habits" ? "active" : ""}>
+                    <span>Habits</span>
                 </Link>
-                <Link
-                    to="/contact"
-                    className={location.pathname === "/contact" ? "active" : ""}
-                >
+                <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>
                     <span>Contact</span>
                 </Link>
             </div>

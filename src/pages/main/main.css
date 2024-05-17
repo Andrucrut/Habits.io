@@ -1,131 +1,183 @@
-.main-container {
+
+
+.about-page {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    margin-top: 10%;
-    padding: 0 2%;
+    height: 100vh;
+    background-image: url('/Users/andrey/WebstormProjects/habits/src/image/back.png');
+    padding: 4%;
+    position: relative;
 }
 
-.main-content {
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.drop {
+    position: absolute;
+    left: 27%;
+    top: 5%;
+    width: 15%;
+    height: 8%;
+    background-image: url('/Users/andrey/WebstormProjects/habits/src/image/DROP.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    opacity: 30%;
+}
+
+.step {
+    position: absolute;
+    top: 4%;
+    left: 62%;
+    width: 18%;
+    height: 10%;
+    background-image: url('/Users/andrey/WebstormProjects/habits/src/image/STEP.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    opacity: 30%;
+}
+
+.second-image {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 50%;
-    margin-top: -10%;
+    height: 70%;
+    background-image: url('/Users/andrey/WebstormProjects/habits/src/image/Calendar-amico.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    opacity: 50%;
 }
 
-.tel {
-    margin-bottom: 3%;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.contact-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    height: 60%;
-    margin-right: 10%;
-    margin-top: -10%;
-}
-
-.social-buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.social-button {
-    background-color: #3b5998;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.social-button:hover {
-    background-color: #2d4373;
-}
-
-.selected-option {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.selected-option input {
+.firstH,
+.secondH {
+    font-size: 70px;
     margin-bottom: 40px;
+    color: #121270;
+    z-index: 2;
+    position: relative;
 }
 
-.send-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-
-}
-
-.send-button:hover {
-    background-color: #0056b3;
-}
-
-
-.phone-number {
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.phone-number p:first-child {
-    margin-bottom: 5px;
-}
-.selected-option input[type="tel"] {
-    height: 40px;
-    font-size: 18px;
-    padding: 0 10px;
-}
-
-
-.main-title {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.main-subtitle {
+.about-page h2 {
     font-size: 2rem;
-    font-weight: bold;
+    margin: 40px 0;
+    z-index: 2;
+    position: relative;
+    color: #121270;
+}
+
+.about-text,
+.two-minute-rule,
+.what-is-it {
     text-align: center;
+    max-width: 800px;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    opacity: 55%;
+    border-radius: 15px;
+    width: 800px;
+    height: 130px;
 }
 
-.description-block {
-    display: flex;
-    align-items: center;
-}
-
-.description-text {
+.about-text p,
+.two-minute-rule p,
+.what-is-it p {
     font-size: 1.2rem;
-    line-height: 1.5;
-    margin-right: 1rem;
-    margin-top: 2%;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
 }
 
-.checkmark {
-    font-size: 2rem;
-    color: green;
+/* Media Queries */
+@media (max-width: 1200px) {
+    .firstH,
+    .secondH {
+        font-size: 3rem;
+    }
+
+    .about-text,
+    .two-minute-rule,
+    .what-is-it {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
 }
 
-.contact-title {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
+@media (max-width: 768px) {
+    .drop, .step, .second-image {
+        width: 25%;
+        height: auto;
+        opacity: 50%;
+    }
+
+    .drop {
+        top: 10%;
+        left: 20%;
+    }
+
+    .step {
+        top: 8%;
+        left: 55%;
+    }
+
+    .second-image {
+        top: 45%;
+        width: 70%;
+    }
+
+    .firstH,
+    .secondH {
+        font-size: 2rem;
+    }
+
+    .about-page h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-text,
+    .two-minute-rule,
+    .what-is-it {
+        width: 100%;
+        max-width: none;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .drop, .step, .second-image {
+        display: none;
+    }
+
+    .firstH,
+    .secondH {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .about-page h2 {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+
+    .about-text,
+    .two-minute-rule,
+    .what-is-it {
+        font-size: 1rem;
+        line-height: 1.4;
+        padding: 10px;
+        border-radius: 10px;
+    }
 }
