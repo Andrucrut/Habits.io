@@ -1,25 +1,19 @@
 {
   "files": {
-    "main.css": "/Habits.io/static/css/main.624a6d13.css",
-    "main.js": "/Habits.io/static/js/main.e75b27c5.js",
-    "static/js/453.db9be7b5.chunk.js": "/Habits.io/static/js/453.db9be7b5.chunk.js",
-    "static/media/work3.jpeg": "/Habits.io/static/media/work3.7da5ba39d69dbffe50bc.jpeg",
-    "static/media/back.png": "/Habits.io/static/media/back.10ef8551176b416dec6d.png",
-    "static/media/work6.jpeg": "/Habits.io/static/media/work6.3ad52ae98c77c87f8e20.jpeg",
-    "static/media/MrBeast_2023_(cropped).jpg": "/Habits.io/static/media/MrBeast_2023_(cropped).0a12e5132dcab615a968.jpg",
-    "static/media/work7.jpeg": "/Habits.io/static/media/work7.ff97707c3df721d88f95.jpeg",
-    "static/media/work4.jpeg": "/Habits.io/static/media/work4.0cb5c7f1cefbf5cbbf94.jpeg",
-    "static/media/mon.jpg": "/Habits.io/static/media/mon.f6a3d7b26eb994e9bf39.jpg",
-    "static/media/article626454.jpg": "/Habits.io/static/media/article626454.330b8c4c5b6623b977ce.jpg",
-    "static/media/1work.jpeg": "/Habits.io/static/media/1work.f431d92d94ef36848438.jpeg",
-    "static/media/worker2.jpeg": "/Habits.io/static/media/worker2.3b4b70c717d3a31f23bb.jpeg",
-    "index.html": "/Habits.io/index.html",
-    "main.624a6d13.css.map": "/Habits.io/static/css/main.624a6d13.css.map",
-    "main.e75b27c5.js.map": "/Habits.io/static/js/main.e75b27c5.js.map",
-    "453.db9be7b5.chunk.js.map": "/Habits.io/static/js/453.db9be7b5.chunk.js.map"
+    "main.css": "/BOT.io/static/css/main.1e102c06.css",
+    "main.js": "/BOT.io/static/js/main.b3fa050d.js",
+    "static/js/453.3b598ec8.chunk.js": "/BOT.io/static/js/453.3b598ec8.chunk.js",
+    "static/media/Calendar-amico.png": "/BOT.io/static/media/Calendar-amico.c289e95f09cb01e31a98.png",
+    "static/media/back.png": "/BOT.io/static/media/back.10ef8551176b416dec6d.png",
+    "static/media/mon.jpg": "/BOT.io/static/media/mon.f6a3d7b26eb994e9bf39.jpg",
+    "static/media/DROP.png": "/BOT.io/static/media/DROP.941f4d1b78f0c7e9afdf.png",
+    "index.html": "/BOT.io/index.html",
+    "main.1e102c06.css.map": "/BOT.io/static/css/main.1e102c06.css.map",
+    "main.b3fa050d.js.map": "/BOT.io/static/js/main.b3fa050d.js.map",
+    "453.3b598ec8.chunk.js.map": "/BOT.io/static/js/453.3b598ec8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.624a6d13.css",
-    "static/js/main.e75b27c5.js"
+    "static/css/main.1e102c06.css",
+    "static/js/main.b3fa050d.js"
   ]
 }
