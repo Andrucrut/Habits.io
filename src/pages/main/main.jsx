@@ -1,5 +1,6 @@
 import React from 'react';
 import "./main.css";
+import HabitSlider from '../../components/slider.jsx'
 
 const AboutPage = () => {
     return (
@@ -22,6 +23,8 @@ const AboutPage = () => {
                     Любая новая привычка должна начинаться с малого и не должна занимать более двух минут. Прежде чем вы сможете усовершенствовать привычку, она должна стать частью вашей жизни.
                 </p>
             </div>
+            {/* Добавляем компонент слайдера */}
+            <HabitSlider />
         </div>
     );
 };
